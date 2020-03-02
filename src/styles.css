@@ -1,0 +1,68 @@
+:root {
+  --f18: 18px;
+  --marg: 20px;
+  --main-color: rgb(75, 204, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  border: 1px var(--main-color) solid;
+  width: 50%;
+  margin: var(--marg) auto;
+  border-radius: 8px;
+}
+
+.App h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 20px 0;
+  color: var(--main-color);
+}
+
+.input-wrap {
+}
+
+.input-wrap input {
+  margin: 5px;
+  width: 60%;
+  height: 30px;
+  font-size: 14px;
+  padding-left: 2px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px var(--main-color) solid;
+  color: var(--main-color);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.input-wrap button {
+  font-size: var(--f18);
+  height: 1.9rem;
+  width: 4rem;
+  border: none;
+  background: rgb(75, 204, 255);
+  border-radius: 20px;
+  color: white;
+  outline: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.list-wrap ul {
+  margin: 20px 0;
+}
+.to-do {
+  text-align: left;
+  cursor: pointer;
+  list-style: none;
+  width: 80%;
+  margin: auto;
+  padding-top: 10px;
+  color: var(--main-color);
+}
